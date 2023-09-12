@@ -1,0 +1,109 @@
+@media (max-width: 1024px) {
+
+    /*  Header  */
+
+    .header__head{
+        margin-bottom: 50px;
+    }
+
+    .nav__burger {
+        display: block;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .head__nav.open .nav__list {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 45px 45px 15px 15px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        max-width: 300px;
+        background-color: white;
+        z-index: 10;
+        font-weight: 600;
+        border-bottom-left-radius: 15px;
+    }
+
+    .head__nav.open .nav__burger{
+        position: fixed;
+        width: 15px;
+        height: 15px;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .nav__item:not(:last-child) {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .nav__links {
+        font-size: 18px;
+    }
+
+    .header__hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero__content{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero__title{
+        font-size: 34px;
+    }
+
+    .title__profession{
+        font-size: 28px;
+    }
+
+    /*  Services  */
+
+    .services__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services__item:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    /*  Portfolio  */
+
+    .portfolio__img{
+        margin-bottom: 30px;
+    }
+    .portfolio__item:not(:last-child){
+        margin-bottom: 50px;
+    }
+
+    /*  Contacts  */
+
+    .contacts__title{
+        margin-bottom: 20px;
+    }
+
+    .contacts__description{
+        margin-bottom: 20px;
+    }
+
+    .contacts__send{
+        margin-bottom: 70px;
+    }
+
+    .contacts__socials{
+        margin-bottom: 20px;
+    }
+}
